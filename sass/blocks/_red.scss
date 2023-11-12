@@ -1,0 +1,37 @@
+.red {
+    margin-top: 20px;
+}
+.red_block {
+    padding: 8px 0;
+    max-width: 100%;
+    background-color: $hoverColor;
+    color: $colorTextWhite;
+}
+.container {
+}
+.red-list {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+.red-list__item {
+    position: relative;
+    overflow: hidden;
+    
+    &::after {
+        content: " ";
+        width: 20px;
+        height: 2px;
+        background-color: $colorTextWhite;
+
+        position: absolute;
+        bottom: 0;
+        left: -20px;
+
+        transition: left 0.1s linear;
+    }
+
+    &:hover::after {
+        left: 0;
+    }
+}

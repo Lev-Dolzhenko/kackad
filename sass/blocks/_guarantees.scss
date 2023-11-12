@@ -1,0 +1,27 @@
+.guarantees {
+    margin-top: 50px;
+}
+.guarantees-block {
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+
+    h2 {
+        font-size: 28px;
+        font-weight: 900;
+        text-align: center;
+    }
+}
+
+.guarantees-block__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.guarantees-block__item {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    flex: 0 1 calc(25% - 1em);
+}
