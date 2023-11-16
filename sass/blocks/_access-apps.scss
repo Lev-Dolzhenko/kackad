@@ -1,0 +1,29 @@
+.access-apps {
+    margin-top: 50px;
+}
+
+.access-apps__title {
+    font-size: 28px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.access-apps__list {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 20px;
+}
+
+.access-apps__item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 5px;
+
+    width: 116px;
+
+    text-align: center;
+    font-weight: 700;
+}
