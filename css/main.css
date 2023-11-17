@@ -1106,3 +1106,96 @@ legend {
   background-color: #FADD05;
   color: #000;
 }
+
+.form-block {
+  position: relative;
+  overflow: hidden;
+  background-color: #FADD05;
+  padding: 60px 0;
+}
+.form-block h2 {
+  text-align: center;
+  z-index: 1;
+}
+.form-block h2 + p {
+  font-size: 13px;
+  text-align: center;
+  margin-bottom: 30px;
+  z-index: 1;
+}
+.form-block .form-image-one {
+  position: absolute;
+  top: 0;
+  left: 0%;
+  z-index: 0;
+}
+.form-block .form-image-two {
+  position: absolute;
+  top: 0;
+  right: 0%;
+  z-index: 0;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  row-gap: 15px;
+  margin: 0 auto;
+  width: 510px;
+}
+.form input {
+  background-color: #fff;
+  width: 510px;
+  padding: 6px 20px 6px;
+  z-index: 1;
+}
+.form label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 5px;
+  z-index: 1;
+}
+.form .consent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: auto;
+}
+.form .consent input {
+  width: unset;
+  margin-right: 10px;
+}
+.form .consent span {
+  text-decoration: underline;
+}
+
+.form__button {
+  width: 510px;
+  height: 40px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #C4261D;
+  z-index: 1;
+}
