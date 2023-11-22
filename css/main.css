@@ -63,14 +63,6 @@ span.accent-title {
   transition: background-color 0.2s ease-in, color 0.2s ease-in;
 }
 
-.button:hover, .button:focus {
-  background-color: #404040;
-}
-
-.button:active {
-  background-color: #222222;
-}
-
 /* Reset and base styles  */
 * {
   padding: 0px;
@@ -360,6 +352,10 @@ legend {
   font-size: 24px;
   color: #000;
 }
+.header__prev-button:hover,
+.header__next-button:hover {
+  background-color: rgba(192, 192, 192, 0.5);
+}
 
 .header__prev-button {
   left: 0px;
@@ -549,6 +545,14 @@ legend {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 calc(25% - 1em);
           flex: 0 1 calc(25% - 1em);
+}
+
+.guarantees__prev-button:hover {
+  background-color: rgba(192, 192, 192, 0.5);
+}
+
+.guarantees__next-button:hover {
+  background-color: rgba(192, 192, 192, 0.5);
 }
 
 .sponsors {
@@ -1198,4 +1202,141 @@ legend {
   font-weight: 700;
   background-color: #C4261D;
   z-index: 1;
+}
+
+.way {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.way-company {
+  width: 280px;
+}
+
+.additional-information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.way-company__header {
+  position: relative;
+  background-color: #FADD05;
+  padding: 10px 60px;
+  text-align: center;
+}
+.way-company__header p {
+  font-weight: 700;
+}
+.way-company__header::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 47%;
+  bottom: -51%;
+  border: 10px solid transparent;
+  border-top: 10px solid #FADD05;
+}
+
+.way-company__main {
+  padding: 20px 20px 30px;
+  background-color: #F8F8F8;
+}
+
+.way-company__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 10px;
+}
+
+.way-company__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+}
+.way-company__item svg {
+  margin-right: 20px;
+}
+.way-company__item .svg1CInHand {
+  width: 43px;
+}
+
+.programms-company {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  row-gap: 10px;
+  text-align: center;
+  width: 230px;
+}
+.programms-company::after {
+  content: "";
+  width: 189px;
+  height: 1px;
+  background-color: #000;
+  position: absolute;
+  top: 58%;
+  left: 9%;
+}
+
+.arrowInCircle {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+}
+
+.treaty-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #FADD05;
+}
+
+.treaty-rectangle {
+  position: relative;
+  overflow: hidden;
+  height: 110px;
+}
+
+.treaty-vectors {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0.2;
+}
+
+.treaty-notes {
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }

@@ -1,0 +1,36 @@
+.treaty {
+   
+}
+
+.treaty-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+    background-color: $accnetColor;
+
+}
+
+.traty-images {
+}
+
+.treaty-rectangle {
+    position: relative;
+    overflow: hidden;
+
+    height: 110px;
+    
+}
+.treaty-vectors {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    opacity: 0.2;
+}
+.treaty-notes {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}

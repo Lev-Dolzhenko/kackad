@@ -1,0 +1,135 @@
+.way {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.way-company {
+    width: 280px;
+}
+
+.additional-information {
+    // position: relative;
+
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.way-company__header {
+    position: relative;
+
+    background-color: $accnetColor;
+
+    padding: 10px 60px;
+
+    text-align: center;
+
+    p {
+        font-weight: 700;
+    }
+
+    &::after {
+        content: '';
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        left: 47%;
+        bottom: -51%;
+        border: 10px solid transparent;
+        border-top: 10px solid $accnetColor;
+
+    }
+}
+
+.way-company__main {
+    padding: 20px 20px 30px;
+    background-color: #F8F8F8;
+
+    // p {
+    //     margin-bottom: 20px;
+    // }
+}
+
+.way-company__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.way-company__item {
+    display: flex;
+    align-items: center;
+
+    height: 50px;
+
+    svg {
+        margin-right: 20px;
+    }
+
+    .svg1CInHand {
+        width: 43px;
+    }
+}
+
+.programms-company {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+
+    text-align: center;
+
+    width: 230px;
+
+    &::after {
+        content: "";
+        width: 189px;
+        height: 1px;
+        background-color: #000;
+
+        position: absolute;
+        top: 58%;
+        left: 9%;
+    }
+
+    
+    
+}
+
+
+
+// .pseudo-elements__first {
+//     position: absolute;
+
+//     top: 1%;
+//     left: 33%;
+
+//     p {
+//         position: absolute;
+//         top: 162px;
+//         left: -59px;
+    
+//         transform: rotate(-90deg);
+//     }
+    
+// }
+
+
+// .staple {}
+
+// .pseudo-elements__second {
+//     position: absolute;
+//     top: 7%;
+//     right: 394px;
+// }
+
+// .arrowInCircle {}
+
+.arrowInCircle {
+    position: fixed;
+
+    top: 0%;
+    left: 0%;
+}

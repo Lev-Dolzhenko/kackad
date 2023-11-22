@@ -12,6 +12,8 @@
         font-weight: 900;
         text-align: center;
     }
+
+    
 }
 
 .guarantees-block__list {
@@ -24,4 +26,11 @@
     column-gap: 10px;
     align-items: center;
     flex: 0 1 calc(25% - 1em);
+}
+
+.guarantees__prev-button:hover {
+    background-color: rgb(192, 192, 192, 0.5);;
+}
+.guarantees__next-button:hover {
+    background-color: rgb(192, 192, 192, 0.5);;
 }

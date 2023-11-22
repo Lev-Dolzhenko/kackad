@@ -89,7 +89,12 @@
   border: none;
   font-size: 24px;
   color: #000;
+
+  &:hover {
+    background-color:rgb(192, 192, 192, 0.5);
+  }
 }
+
 
 .header__prev-button {
   left: 0px;
@@ -98,6 +103,10 @@
 .header__next-button {
   right: 0px;
 }
+
+
+
+
 
 /*---------/HEADER-SLIDER--------------*/
 
